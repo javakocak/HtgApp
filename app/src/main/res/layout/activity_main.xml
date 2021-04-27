@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/mLinearLayout"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/timerHex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+    </TextView>
+
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/Pin1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PIN1">
+    </com.google.android.material.switchmaterial.SwitchMaterial>
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/Pin2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PIN2">
+    </com.google.android.material.switchmaterial.SwitchMaterial>
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/Pin3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PIN3">
+    </com.google.android.material.switchmaterial.SwitchMaterial>
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/Pin4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PIN4">
+    </com.google.android.material.switchmaterial.SwitchMaterial>
+</LinearLayout>
